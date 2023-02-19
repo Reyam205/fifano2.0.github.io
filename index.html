@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FifanoWeb</title>
+</head>
+
+<body>
+
+    <header class="bg-black fixed-top d-flex align-content-center justify-content-center" style="min-height:5rem;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg " style="background-color:black; margin-top: 0.6rem;">
+                <div class="container-fluid ">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        S aria-label="Toggle navigation">
+                        <i class="bi bi-list" style="color: white; font-size: 2rem;"></i>
+                        <!-- <span class="navbar-toggler-icon" style="color:white"></span> -->
+                    </button>
+                    <a class="navbar-brand fw-bold text-white" href="index.html">
+                        <img class="fifanodesing" src="img/logo.jpg" alt="logo">
+                        <span class="fifanoletter"> Fifano Design </span>
+                    </a>
+                    <div class="collapse navbar-collapse ms-5" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item ms-3">
+                                <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link c text-white" href="#">Tienda</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="nav-link text-white" href="html/log-in.html">Log/in</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="portada">
+            <div class="letter">
+                <p class="tit">Dino Designo</p>
+                <p class="tit div"></p>
+                <p class="tit sub">Tu tienda de ropa</p>
+            </div>
+        </div>
+        <div class="container tiendas">
+            <div class="container text-center ">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 my-2 p-4">
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/tienda1.jpg" for="tienda1" class="card-img-top" alt="TIENDA 1">
+                            <div class="card-body">
+                                <a class="card-title" id="tienda1" href="html/log-in.html">
+                                    <h5 class="card-title">Tienda 1</h5>
+                                    <p class="card-text">Estamos ubicados en la parte norte de la isla</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/tienda2.webp" class="card-img-top" alt="TIENDA 2">
+                            <div class="card-body">
+                                <a class="card-title" id="tienda2" href="#">
+                                <h5 class="card-title">Tienda 2</h5>
+                                <p class="card-text">Estamos ubicados en la parte central de la isla</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/tienda3.jpg" class="card-img-top" alt="TIENDA 3">
+                            <div class="card-body">
+                                <a class="card-title" id="tienda3" href="#">
+                                <h5 class="card-title">Tienda 3</h5>
+                                <p class="card-text">Estamos ubicados en la parte sur de la isla</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="container ropa">
+            <div class="container text-center ">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 my-2 p-4">
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cami1.jpg" class="card-img-top" alt="Camisa 1">
+                            <div class="card-body">
+                                <a class="card-title" href="#">
+                                    <h5 class="card-title">Camisa 1</h5>
+                                    <p class="card-text">La mejor camisa del mercado</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cami2.jpg" class="card-img-top" alt="Camiseta 2">
+                            <div class="card-body">
+                                <a class="card-title" href="#">
+                                <h5 class="card-title">Camisa 2</h5>
+                                <p class="card-text">La mejor camisa del mercado</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/cami3.jpg" class="card-img-top" alt="Camisa 3">
+                            <div class="card-body">
+                                <a class="card-title" href="#">
+                                <h5 class="card-title">Camisa 3</h5>
+                                <p class="card-text">La mejor camisa del mercado</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="fin">
+            <ul class="list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Acerca de nosotros</a></li>
+                <li><a href="">Ubicación</a></li>
+                <li><a href="">Ayuda</a></li>
+                <li><a href="">Copyright 2023 ©</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+
+</html>
